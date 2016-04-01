@@ -67,7 +67,7 @@
           <execution>
             <phase>process-resources</phase>
             <goals>
-              <goal>update</goal>
+              <goal>updateTestingRollback</goal>
             </goals>
           </execution>
         </executions>

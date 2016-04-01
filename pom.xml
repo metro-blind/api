@@ -98,7 +98,8 @@
 	  <execution>
 	    <phase>process-resources</phase>
 	    <goals>
-	      <goal>update</goal>
+	      <!-- replace by update after earlier dev phase -->
+	      <goal>updateTestingRollback</goal>
 	    </goals>
 	  </execution>
 	</executions>

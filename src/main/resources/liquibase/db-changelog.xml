@@ -6,4 +6,65 @@
     xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
 			http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+  <changeSet id="1" author="alexarnaud">
+    <createTable tableName="city">
+      <column name="id" type="int">
+	<constraints primaryKey="true" nullable="false"/>
+      </column>
+      <column name="name" type="varchar(50)">
+	<constraints nullable="false"/>
+      </column>
+    </createTable>
+    <createTable tableName="line">
+      <column name="id" type="int">
+	<constraints primaryKey="true" nullable="false"/>
+      </column>
+      <!-- It is a string because line can be a number in France or a
+      string like in London -->
+      <column name="name" type="varchar(50)">
+	<constraints nullable="false"/>
+      </column>
+    </createTable>
+    <createTable tableName="station">
+      <column name="id" type="int">
+	<constraints primaryKey="true" nullable="false"/>
+      </column>
+      <column name="name" type="varchar(100)">
+	<constraints nullable="false"/>
+      </column>
+    </createTable>
+    <createTable tableName="stations_lines">
+      <column name="id" type="int">
+	<constraints primaryKey="true" nullable="false"/>
+      </column>
+      <column name="station_id" type="int">
+	<constraints primaryKey="true" nullable="false"/>
+      </column>
+      <column name="line_id" type="int">
+	<constraints primaryKey="true" nullable="false"/>
+      </column>
+    </createTable>
+    <addForeignKeyConstraint baseColumnNames="station_id"
+			     baseTableName="stations_lines"
+			     constraintName="fk_station_id"
+			     referencedColumnNames="id"
+			     referencedTableName="station"/>
+    <addForeignKeyConstraint baseColumnNames="line_id"
+			     baseTableName="stations_lines"
+			     constraintName="fk_line_id"
+			     referencedColumnNames="id"
+			     referencedTableName="line"/>
+    <createTable tableName="itinerary">
+      <column name="id" type="int">
+	<constraints primaryKey="true" nullable="false"/>
+      </column>
+      <column name="begin_station" type="int">
+	<constraints primaryKey="false" nullable="false"/>
+      </column>
+      <column name="end_station" type="int">
+	<constraints primaryKey="false" nullable="false"/>
+      </column>
+    </createTable>
+  </changeSet>
 </databaseChangeLog>
