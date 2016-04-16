@@ -1,6 +1,6 @@
-package com.example.helloworld.resources;
+package org.metro_blind.api.resources;
 
-import com.example.helloworld.api.Saying;
+import org.metro_blind.api.api.Saying;
 import com.google.common.base.Optional;
 import com.codahale.metrics.annotation.Timed;
 
@@ -13,12 +13,12 @@ import java.util.concurrent.atomic.AtomicLong;
 
 @Path("/hello-world")
 @Produces(MediaType.APPLICATION_JSON)
-public class HelloWorldResource {
+public class MetroBlindResource {
     private final String template;
     private final String defaultName;
     private final AtomicLong counter;
 
-    public HelloWorldResource(String template, String defaultName) {
+    public MetroBlindResource(String template, String defaultName) {
 	this.template = template;
 	this.defaultName = defaultName;
 	this.counter = new AtomicLong();

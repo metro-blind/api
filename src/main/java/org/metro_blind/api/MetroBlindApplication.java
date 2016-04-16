@@ -1,14 +1,14 @@
-package com.example.helloworld;
+package org.metro_blind.api;
 
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
-import com.example.helloworld.resources.HelloWorldResource;
-import com.example.helloworld.health.TemplateHealthCheck;
+import org.metro_blind.api.resources.MetroBlindResource;
+import org.metro_blind.api.health.TemplateHealthCheck;
 
-public class HelloWorldApplication extends Application<HelloWorldConfiguration> {
+public class MetroBlindApplication extends Application<MetroBlindConfiguration> {
     public static void main(String[] args) throws Exception {
-	new HelloWorldApplication().run(args);
+	new MetroBlindApplication().run(args);
     }
 
     @Override
@@ -17,15 +17,15 @@ public class HelloWorldApplication extends Application<HelloWorldConfiguration> 
     }
 
     @Override
-    public void initialize(Bootstrap<HelloWorldConfiguration> bootstrap) {
+    public void initialize(Bootstrap<MetroBlindConfiguration> bootstrap) {
 	// nothing to do yet
     }
 
     @Override
-    public void run(HelloWorldConfiguration configuration,
+    public void run(MetroBlindConfiguration configuration,
 		    Environment environment) {
 	// nothing to do yet
-	final HelloWorldResource resource = new HelloWorldResource(
+	final MetroBlindResource resource = new MetroBlindResource(
 								   configuration.getTemplate(),
 								   configuration.getDefaultName()
 								   );

@@ -29,8 +29,8 @@ Maven
 Configure MySQL with login informations
 user : root
 password : root
-Create a database "metro-blind" with the command :
-"CREATE DATABASE metro-blind;"
+Create a database "metro_blind" with the command :
+"CREATE DATABASE metro_blind;"
 Check if the database was well created with the command:
 "show databases;"
 

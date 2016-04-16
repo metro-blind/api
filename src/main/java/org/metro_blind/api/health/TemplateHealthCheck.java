@@ -1,4 +1,4 @@
-package com.example.helloworld.health;
+package org.metro_blind.api.health;
 
 import com.codahale.metrics.health.HealthCheck;
 

@@ -1,4 +1,4 @@
-package com.example.helloworld.api;
+package org.metro_blind.api.api;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.hibernate.validator.constraints.Length;

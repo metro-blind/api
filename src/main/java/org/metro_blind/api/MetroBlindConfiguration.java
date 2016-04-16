@@ -1,10 +1,10 @@
-package com.example.helloworld;
+package org.metro_blind.api;
 
 import io.dropwizard.Configuration;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.hibernate.validator.constraints.NotEmpty;
 
-public class HelloWorldConfiguration extends Configuration {
+public class MetroBlindConfiguration extends Configuration {
     @NotEmpty
     private String template;
 
