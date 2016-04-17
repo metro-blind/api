@@ -8,6 +8,33 @@
 			http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
 
   <changeSet id="1" author="alexarnaud">
+    <createTable tableName="user">
+      <column name="id" type="int">
+	<constraints primaryKey="true" nullable="false"/>
+      </column>
+      <column name="login" type="varchar(50)">
+	<constraints nullable="false"/>
+      </column>
+      <column name="password" type="varchar(50)">
+	<constraints nullable="false"/>
+      </column>
+      <column name="role_id" type="int">
+	<constraints nullable="false"/>
+      </column>
+    </createTable>   
+    <createTable tableName="role">
+      <column name="id" type="int">
+	<constraints primaryKey="true" nullable="false"/>
+      </column>
+      <column name="label" type="varchar(16)">
+	<constraints nullable="false"/>
+      </column>
+    </createTable>
+    <addForeignKeyConstraint baseColumnNames="role_id"
+			     baseTableName="user"
+			     constraintName="fk_role_id"
+			     referencedColumnNames="id"
+			     referencedTableName="role"/>
     <createTable tableName="city">
       <column name="id" type="int">
 	<constraints primaryKey="true" nullable="false"/>

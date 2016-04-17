@@ -3,8 +3,25 @@ package org.metro_blind.api;
 import io.dropwizard.Configuration;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.hibernate.validator.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+import javax.validation.Valid;
+import io.dropwizard.db.DataSourceFactory;
 
 public class MetroBlindConfiguration extends Configuration {
+    @Valid
+    @NotNull
+    private DataSourceFactory database = new DataSourceFactory();  
+
+    @JsonProperty("database")
+    public void setDataSourceFactory(DataSourceFactory factory) {
+	this.database = factory;
+    }
+
+    @JsonProperty("database")
+    public DataSourceFactory getDataSourceFactory() {
+	return database;
+    }
+
     @NotEmpty
     private String template;
 

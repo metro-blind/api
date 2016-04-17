@@ -7,11 +7,16 @@ import io.dropwizard.auth.AuthValueFactoryProvider;
 import io.dropwizard.auth.AuthDynamicFeature;
 import io.dropwizard.auth.basic.BasicCredentialAuthFilter;
 import org.glassfish.jersey.server.filter.RolesAllowedDynamicFeature;
-import org.metro_blind.api.resources.MetroBlindResource;
+import org.metro_blind.api.resources.HelloWorldResource;
 import org.metro_blind.api.health.TemplateHealthCheck;
 import org.metro_blind.api.security.SimpleAuthenticator;
 import org.metro_blind.api.security.SimpleAuthorizer;
 import org.metro_blind.api.model.User;
+import org.metro_blind.api.model.UserDAO;
+import org.metro_blind.api.resources.UserResource;
+
+import io.dropwizard.jdbi.DBIFactory;
+import org.skife.jdbi.v2.DBI;
 
 public class MetroBlindApplication extends Application<MetroBlindConfiguration> {
     public static void main(String[] args) throws Exception {
@@ -31,8 +36,11 @@ public class MetroBlindApplication extends Application<MetroBlindConfiguration> 
     @Override
     public void run(MetroBlindConfiguration configuration,
 		    Environment environment) {
-	// nothing to do yet
-	final MetroBlindResource resource = new MetroBlindResource(
+	final DBIFactory factory = new DBIFactory();
+	final DBI jdbi = factory.build(environment, configuration.getDataSourceFactory(), "postgresql");
+	final UserDAO userDao = jdbi.onDemand(UserDAO.class);
+	environment.jersey().register(new UserResource(userDao));
+	final HelloWorldResource resource = new HelloWorldResource(
 								   configuration.getTemplate(),
 								   configuration.getDefaultName()
 								   );

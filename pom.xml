@@ -26,6 +26,11 @@
       <version>${dropwizard.version}</version>
     </dependency>
     <dependency>
+      <groupId>io.dropwizard</groupId>
+      <artifactId>dropwizard-jdbi</artifactId>
+      <version>${dropwizard.version}</version>
+    </dependency>
+    <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
       <!-- Replace with the version of the MySQL driver you want to use -->

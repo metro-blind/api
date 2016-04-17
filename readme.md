@@ -38,4 +38,4 @@ Check if the database was well created with the command:
 mvn clean install
 
 ### Run
-TODO
+java -jar target/metro-blind-*.jar server hello-world.yml
