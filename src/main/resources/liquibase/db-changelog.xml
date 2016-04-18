@@ -12,14 +12,14 @@
       <column name="id" type="int">
 	<constraints primaryKey="true" nullable="false"/>
       </column>
-      <column name="login" type="varchar(50)">
+      <column name="name" type="varchar(50)">
 	<constraints nullable="false"/>
       </column>
       <column name="password" type="varchar(50)">
 	<constraints nullable="false"/>
       </column>
       <column name="role_id" type="int">
-	<constraints nullable="false"/>
+	<constraints nullable="true"/>
       </column>
     </createTable>   
     <createTable tableName="role">
@@ -95,6 +95,9 @@
       <column name="station_id_end" type="int">
 	<constraints  nullable="false"/>
       </column>
+      <column name="station_id_by" type="int">
+	<constraints  nullable="true"/>
+      </column>
     </createTable>
     <addForeignKeyConstraint baseColumnNames="station_id_begin"
 			     baseTableName="itinerary"
@@ -104,6 +107,11 @@
     <addForeignKeyConstraint baseColumnNames="station_id_end"
 			     baseTableName="itinerary"
 			     constraintName="fk_station_id_end"
+			     referencedColumnNames="id"
+			     referencedTableName="station"/>
+    <addForeignKeyConstraint baseColumnNames="station_id_by"
+			     baseTableName="itinerary"
+			     constraintName="fk_station_id_by"
 			     referencedColumnNames="id"
 			     referencedTableName="station"/>
   </changeSet>
