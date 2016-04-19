@@ -37,8 +37,8 @@ public class MetroBlindApplication extends Application<MetroBlindConfiguration> 
     public void run(MetroBlindConfiguration configuration,
 		    Environment environment) {
 	final DBIFactory factory = new DBIFactory();
-	final DBI jdbi = factory.build(environment, configuration.getDataSourceFactory(), "postgresql");
-	final UserDAO userDao = jdbi.onDemand(UserDAO.class);
+	final DBI jdbi = factory.build(environment, configuration.getDataSourceFactory(), "mysql");
+	UserDAO userDao = jdbi.onDemand(UserDAO.class);
 	environment.jersey().register(new UserResource(userDao));
 	final HelloWorldResource resource = new HelloWorldResource(
 								   configuration.getTemplate(),
