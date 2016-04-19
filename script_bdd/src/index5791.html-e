@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+
+<!-- Mirrored from www.metro-connexion.org/index.php?module=commun&action=decrire&id=161&t=1 by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 20 Mar 2016 13:52:02 GMT -->
+<head><title>De Nation vers Nation par Place d'Italie MÃ©tro-Connexion version mobile</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Métro-connexion l'outil indispensable qui décrit pas à pas le trajet des correspondances dans le métro, le RER et le tramway de Paris" />
+	<meta name="keywords" content="metro-connexion, métro, metro, métropolitain, metropolitain, metropolitan, connexion, connexions, connection, connections, 
+correspondances, correspondance, changement, changements, transports en commun, déplacement, deplacement, paris, Paris, RER, 
+R.E.R, rer, bus, ligne de métro, ligne de metro, ratp, ile-de-france, description correspondance, ligne 1, ligne 2, ligne 3, 
+ligne 4, ligne 5, ligne 6, ligne 7, ligne 8, ligne 9, ligne 10, ligne 11, ligne 12, ligne 13, ligne 14, ligne 3 bis, ligne 
+13 bis, RER A, rer a, rer b, RER B, rer c, RER C, rer d, RER D, rer e, RER E, meteor, météor, Orlyval" />
+ <link rel="stylesheet" type="text/css" href="css/metro-connexion-mob.css" media="screen" /> 
+<link rel="stylesheet" type="text/css" href="css/metro-connexion-print.css" media="print" />
+<link rel="shortcut icon" type="image/x-icon" href="images/logo-metro-connexion.html" />
+	<link type="text/css" href="autocomplete/jquery.ui.all.css" rel="stylesheet" />
+</head>
+<body>
+<div id="header">
+<div id="logo">
+    <a href="index52d2.html?module=commun&amp;action=changer_terminal&amp;type=web"><img src="images/logo_metro-connexion.gif" alt="Accueil" /></a>
+</div>
+<div id="main_title">
+<p>
+<a href="index3958.html?module=mobile&amp;action=formulMobile&amp;k=init">Nouvelle recherche</a>&nbsp; 
+ <a href="index4887.html?module=mobile&amp;action=lister_metro">Lignes de MÃ©tro, RER, Tramway</a>&nbsp;
+<a href="index5c56.html?module=mobile&amp;action=lister_bus">Lignes de bus</a>
+ </p>
+
+</div>
+<span class="clear">&nbsp;</span>
+</div> <!-- fin header -->
+<div id="main">
+    <div class="contenu">
+<h2>Description du quai</h2>
+	<p>En tÃªte, dans le prolongement du quai, un double escalier montant pour la correspondance de la ligne 5 et la sortie boulevard Vincent Auriol.<br />
+Presque en tÃªte, un couloir perpendiculaire au quai, passage interdit.<br />
+Au milieu, un couloir perpendiculaire au quai pour la correspondance de la ligne 7 et les sorties Auguste Blanqui et avenue d'Italie.</p>
+	</div>
+    <div class="contenu">
+	<h2>Description courte</h2>
+	<p>En tÃªte, dans le prolongement du quai, monter le double escalier. On arrive Ã  un carrefour en croix qui se prÃ©sente comme suit : <br />
+**<br />
+A 9 h, un couloir</li><li>A midi, un court escalier descendant</li><li>A 3 h, un escalier montant.</li></ol><p class="suite">Tourner Ã 9 H. <br />
+Suivre le couloir.<br />
+Tourner Ã  gauche. <br />
+Descendre le double escalier. <br />
+On arrive dans le prolongement du quai, en queue.</p>
+		<p>
+		</p>
+</div>
+<div class="contenu">
+	<h2>Description dÃ©taillÃ©e</h2>
+	<p>En tÃªte, dans le prolongement du quai, monter le double escalier. On arrive Ã  un carrefour en croix qui se prÃ©sente comme suit : <br />
+**<br />
+A 9 h, un couloir</li><li>A midi, un court escalier descendant</li><li>A 3 h, un escalier montant.</li></ol><p class="suite">Tourner Ã 9 H. <br />
+Suivre le couloir.<br />
+Tourner Ã  gauche. <br />
+Descendre le double escalier. <br />
+On arrive dans le prolongement du quai, en queue.</p>
+		<p>
+			</p>
+
+	</div>
+				<h2>Options</h2>
+    <ul>
+    	<li><a href="index5791.html?module=commun&amp;action=decrire&amp;id=161&amp;t=1"  >Trajet retour</a></li>
+		</ul>
+		<!-- bas de page pour la vue de l'interface mobile -->
+</div> <!-- fin main -->
+	<script type="text/javascript" src="autocomplete/jquery-1.4.2.js"></script>
+	<script type="text/javascript" src="autocomplete/jquery.ui.core.js"></script>
+	<script type="text/javascript" src="autocomplete/jquery.ui.widget.js"></script>
+	<script type="text/javascript" src="autocomplete/jquery.ui.position.js"></script>
+	<script type="text/javascript" src="autocomplete/jquery.ui.autocomplete.js"></script>
+	<script type="text/javascript">
+	$(function() {
+	$("div.etendue").hide();
+	$("#sta_dep, #sta_arr").value= '';
+		function log(message) {
+			$("<div/>").text(message).prependTo("#msg");
+			$("#log").attr("scrollTop", 0);
+		}
+		
+		$("#nom_sta_dep, #nom_sta_arr").autocomplete({
+			source: "global/recup_stations.php",
+			minLength: 2,
+			select: function(event, ui) {
+				log(ui.item ? (ui.item.value + " sélectionné ") : " aucune élément sélectionné " + this.value);
+			}
+		});
+	});
+	</script>
+
+</body>
+
+<!-- Mirrored from www.metro-connexion.org/index.php?module=commun&action=decrire&id=161&t=1 by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 20 Mar 2016 13:52:02 GMT -->
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+
+<!-- Mirrored from www.metro-connexion.org/index.php?module=commun&action=charger_contenu&fich=conditions by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 20 Mar 2016 13:35:06 GMT -->
+<head><title>Utilisation Métro-Connexion version mobile</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="M�tro-connexion l'outil indispensable qui d�crit pas � pas le trajet des correspondances dans le m�tro, le RER et le tramway de Paris" />
+	<meta name="keywords" content="metro-connexion, m�tro, metro, m�tropolitain, metropolitain, metropolitan, connexion, connexions, connection, connections, 
+correspondances, correspondance, changement, changements, transports en commun, d�placement, deplacement, paris, Paris, RER, 
+R.E.R, rer, bus, ligne de m�tro, ligne de metro, ratp, ile-de-france, description correspondance, ligne 1, ligne 2, ligne 3, 
+ligne 4, ligne 5, ligne 6, ligne 7, ligne 8, ligne 9, ligne 10, ligne 11, ligne 12, ligne 13, ligne 14, ligne 3 bis, ligne 
+13 bis, RER A, rer a, rer b, RER B, rer c, RER C, rer d, RER D, rer e, RER E, meteor, m�t�or, Orlyval" />
+ <link rel="stylesheet" type="text/css" href="css/metro-connexion-mob.css" media="screen" /> 
+<link rel="stylesheet" type="text/css" href="css/metro-connexion-print.css" media="print" />
+<link rel="shortcut icon" type="image/x-icon" href="images/logo-metro-connexion.html" />
+	<link type="text/css" href="autocomplete/jquery.ui.all.css" rel="stylesheet" />
+</head>
+<body>
+<div id="header">
+<div id="logo">
+    <a href="index52d2.html?module=commun&amp;action=changer_terminal&amp;type=web"><img src="images/logo_metro-connexion.gif" alt="Accueil" /></a>
+</div>
+<div id="main_title">
+<p>
+<a href="index3958.html?module=mobile&amp;action=formulMobile&amp;k=init">Nouvelle recherche</a>&nbsp; 
+ <a href="index4887.html?module=mobile&amp;action=lister_metro">Lignes de Métro, RER, Tramway</a>&nbsp;
+<a href="index5c56.html?module=mobile&amp;action=lister_bus">Lignes de bus</a>
+ </p>
+
+</div>
+<span class="clear">&nbsp;</span>
+</div> <!-- fin header -->
+<div id="main">
+﻿<div class="contenu">
+<h2>Propriété et droits d'utilisation</h2>
+<p>Le nom de domaine "metro-connexion.org" est la propriété exclusive de <a href="http://www.tanguy-loheac.com/">Tanguy Lohéac</a>. Ce site est hébergé par <a title="hébergeur haisoft.fr" href="http://www.haisoft.fr/">haisoft.fr</a>.<br />
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/fr/"><img alt="Licence Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/fr/88x31.png"
+/></a>
+<br />Ce service, les données qui le composent ainsi que l'architecture de la base de données sont mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/fr/">Licence
+Creative Commons Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 3.0 France</a>. Ce qui signifie en particulier que vous devez citer son auteur, <a href="_/www.tanguy-loheac.html">Tanguy Lohéac</a>, à chaque utilisation de tout ou partie des contenus ce service, que vous ne pouvez en aucun cas en faire une utilisation commerciale, sauf accord écrit de son auteur, et que vous devez réutiliser ce service selon les mêmes termes de licence.<br />
+Pour toute demande particulière concernant l'utilisation de ce service, merci de prendre <a href="index4a90.html?module=commun&amp;action=chargerContenu&amp;fich=contact">contact</a> auprès de Tanguy Lohéac.
+</p>
+<h2>Responsabilités</h2>
+<p>Les informations fournies sur la totalité de ce site le sont à titre purement indicatif et n'engagent en rien leurs auteurs quant aux conséquences d'une imprécision, d'un éventuel oubli, d'une modification de parcours suite à des travaux ou un changement de signalitique, pour les utilisateurs de ce site ou toute autre personne faisant usage de ces informations.</p>
+<p>Ce site est le fruit d'un travail collaboratif, entièrement bénévole et les informations sont publiées de manière entièrement gratuite. Par conséquent toute utilisation, reproduction partielle ou totale des données de ce site ne peut faire l'objet d'une quelconque transaction commerciale.<br />par ailleurs, par respect pour l'énorme travail que cela représente, nous vous demandons de nous informer via <a href="index4a90.html?module=commun&amp;action=chargerContenu&amp;fich=contact">la page contact</a> de toute utilisation des données de ce site.</p>
+<p>L'enrichissement de la base de données se faisant progressivement, nous vous invitons à venir nous visiter régulièrement pour être informé des changements et améliorations.</p>
+<h2>Remerciements</h2>
+<p>Un immense merci à <a target="_BLANK" href="http://sylviemelo.fr/">Sylvie Melo</a> qui m’a apporté tout son professionnalisme et sa sensibilité dans le rhabillage graphique effectué entre janvier et mars 2014. Elle a parfaitement compris mes attentes et c’est un vrai plaisir de travailler avec elle.
+Merci aussi à <a target="_BLANK" href="http://vilaspasa.net/">Olivier Vilaspasà</a> pour m’avoir aider à initier ce projet de refonte graphique. 
+</p>
+<p>Je tiens à remercier tout particulièrement Chantal, Caroline Maïp, Catherine, Marie-Laure, Philippe, Janet, Sybille, Christian, Bernard pour leur aide précieuse, que ce soit pourla rédaction des descriptions, les repérages de parcours, les suggestions d'améliorations. Toutes ces personnes ont leur part dans cette réalisation grâce à leurs repérages et leurs conseils de rédaction des correspondances.</p>
+</div><!-- bas de page pour la vue de l'interface mobile -->
+</div> <!-- fin main -->
+	<script type="text/javascript" src="autocomplete/jquery-1.4.2.js"></script>
+	<script type="text/javascript" src="autocomplete/jquery.ui.core.js"></script>
+	<script type="text/javascript" src="autocomplete/jquery.ui.widget.js"></script>
+	<script type="text/javascript" src="autocomplete/jquery.ui.position.js"></script>
+	<script type="text/javascript" src="autocomplete/jquery.ui.autocomplete.js"></script>
+	<script type="text/javascript">
+	$(function() {
+	$("div.etendue").hide();
+	$("#sta_dep, #sta_arr").value= '';
+		function log(message) {
+			$("<div/>").text(message).prependTo("#msg");
+			$("#log").attr("scrollTop", 0);
+		}
+		
+		$("#nom_sta_dep, #nom_sta_arr").autocomplete({
+			source: "global/recup_stations.php",
+			minLength: 2,
+			select: function(event, ui) {
+				log(ui.item ? (ui.item.value + " s�lectionn� ") : " aucune �l�ment s�lectionn� " + this.value);
+			}
+		});
+	});
+	</script>
+
+</body>
+
+<!-- Mirrored from www.metro-connexion.org/index.php?module=commun&action=charger_contenu&fich=conditions by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 20 Mar 2016 13:35:07 GMT -->
+</html>

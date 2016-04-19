@@ -1,0 +1,815 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+
+<!-- Mirrored from www.metro-connexion.org/index.php?module=commun&action=charger_contenu&fich=mode-emploi by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 20 Mar 2016 13:12:58 GMT -->
+<head><title>Mode d'emploi Métro-Connexion version mobile</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="M�tro-connexion l'outil indispensable qui d�crit pas � pas le trajet des correspondances dans le m�tro, le RER et le tramway de Paris" />
+	<meta name="keywords" content="metro-connexion, m�tro, metro, m�tropolitain, metropolitain, metropolitan, connexion, connexions, connection, connections, 
+correspondances, correspondance, changement, changements, transports en commun, d�placement, deplacement, paris, Paris, RER, 
+R.E.R, rer, bus, ligne de m�tro, ligne de metro, ratp, ile-de-france, description correspondance, ligne 1, ligne 2, ligne 3, 
+ligne 4, ligne 5, ligne 6, ligne 7, ligne 8, ligne 9, ligne 10, ligne 11, ligne 12, ligne 13, ligne 14, ligne 3 bis, ligne 
+13 bis, RER A, rer a, rer b, RER B, rer c, RER C, rer d, RER D, rer e, RER E, meteor, m�t�or, Orlyval" />
+ <link rel="stylesheet" type="text/css" href="css/metro-connexion-mob.css" media="screen" /> 
+<link rel="stylesheet" type="text/css" href="css/metro-connexion-print.css" media="print" />
+<link rel="shortcut icon" type="image/x-icon" href="images/logo-metro-connexion.html" />
+	<link type="text/css" href="autocomplete/jquery.ui.all.css" rel="stylesheet" />
+</head>
+<body>
+<div id="header">
+<div id="logo">
+    <a href="index52d2.html?module=commun&amp;action=changer_terminal&amp;type=web"><img src="images/logo_metro-connexion.gif" alt="Accueil" /></a>
+</div>
+<div id="main_title">
+<p>
+<a href="index3958.html?module=mobile&amp;action=formulMobile&amp;k=init">Nouvelle recherche</a>&nbsp; 
+ <a href="index4887.html?module=mobile&amp;action=lister_metro">Lignes de Métro, RER, Tramway</a>&nbsp;
+<a href="index5c56.html?module=mobile&amp;action=lister_bus">Lignes de bus</a>
+ </p>
+
+</div>
+<span class="clear">&nbsp;</span>
+</div> <!-- fin header -->
+<div id="main">
+﻿<div class="contenu">
+<h2>Introduction</h2>
+
+<p>Les descriptions sont une somme de contributions volontaires d'amies et amis qui, comme moi, empruntent régulièrement ce moyen de transport qui nous permet d'être autonome et qui ont parfois galéré à tournicoter faute de se faire une idée précise des parcours.
+C'est pourquoi il se construit petit à petit, à mesure que les descriptions me parviennent. A ce titre, vous êtes également conviés à participer, si vous le souhaitez en fournissant les descriptions des changements que vous connaissez bien ou parfaitement, ou en corrigeant des erreurs que vous avez repérées sur ce site.<br />Pour les informations sur les modalités de participation, consulter 
+<a href="indexdc38.html?module=commun&amp;action=charger_contenu&amp;fich=contact">la page contact</a>.</p>
+<p>Nous vous invitons également à lire 
+<a href="indexe568.html?module=commun&amp;action=charger_contenu&amp;fich=conditions">les conditions d'utilisation du site</a>.</p>
+</div>
+<div class="contenu">
+<h2>Démonstrations sous forme de fichiers son</h2>
+<p>En complément des explications et des exemples qui figurent sur cette page, nous vous proposons ce tutoriel sous forme de fichiers à écouter ou de vidéos à voir.</p>
+<h3>A écouter</h3>
+<ol>
+<li><a href="sons/1_tuto_mc_son.m4a">Présentation général de l'écran</a> (9 minutes 40, format m4a)</li>
+<li><a href="sons/2_tuto_mc_son.m4a">Comment rechercher une description par la recherche classique ?</a> (12 minutes 41, format m4a)</li>
+<li><a href="sons/3_tuto_mc_son.m4a">Comment rechercher une description par la recherche étendue ?</a> (11 minutes 05, format m4a)</li>
+<li><a href="sons/4_tuto_mc_son.m4a">Liste des stations de métro et des arrêts de bus</a> (7 minutes 45, format m4a)</li>
+<li><a href="sons/tuto_mc_mobile.mp3">Utilisation de la version mobile</a> (8 minutes 52, format mp3)</li>
+</ol>
+
+<h3>A voir et écouter</h3>
+<ol>
+<li><a href="http://youtu.be/2RSeT6vlTWM" target="_BLANK">Présentation général de l'écran (nouvelle fenêtre Youtube)</a> (9 minutes 40)</li>
+<li><a href="http://youtu.be/e7VOO6c-Fpc" target="_BLANK">Comment rechercher une description par la recherche classique ? (nouvelle fenêtre Youtube)</a> (12 minutes 41)</li>
+<li><a href="http://youtu.be/gYp44Eu2w4Y" target="_BLANK">Comment rechercher une description par la recherche étendue ? (nouvelle fenêtre Youtube)</a> (11 minutes 05)</li>
+<li><a href="http://youtu.be/8yByje4opXc">Liste des stations de métro et des arrêts de bus (nouvelle fenêtre Youtube)</a> (7 minutes 45)</li>
+</ol>
+</div>
+<div class="contenu">
+<h2>Rechercher une correspondance</h2>
+
+<p>Le principe de navigation sur le site Métro Connexion est tout simplement inspiré de la manière classique dont on construit un  itinéraire lorsqu'on veut se rendre d'un point A à un point B.</p>
+<ol>
+  <li>On détermine d'où l'on vient : en indiquant sa station de départ.</li>
+  <li>On choisit vers où on souhaite aller : en indiquant sa station d'arrivée.</li>
+ </ol>
+<p>On peut aussi essayer la boussole, mais dans le métro on perd vite le nord.<br />
+Voyons à présent étape par étape :</p>
+<p>Nous proposons deux modes de recherche, le mode "Recherche classique", le mode "Recherche étendue".<br />
+Le mode "Recherche classique" consiste simplement à sélectionner dans la liste "station de départ" la station de métro ou de RER d'où l'on vient, puis, dans la liste "station d'arrivée", la station de métro ou de RER à laquelle on souhaite se rendre. Il suffit ensuite de valider sur le bouton "lancer la recherche".<br />
+Le mode "Recherche étendue" permet d'effectuer une recherche en indiquant tout ou partie des informations. Il permet, par exemple, de rechercher toutes les stations par lesquelles on peut effectuer une correspondance donnée ; ou encore de n'afficher que les correspondances possibles par une station donnée.</p>
+<p>Grâce au lien qui se nomme alternativement "recherche étendue" et "recherche classique", vous pouvez basculer d'un mode à l'autre. Le dernier mode que vous aurez choisi sera mémorisé pour vos prochaines visites. Note : ceci à condition que vous autorisiez les cookies.</p> 
+<h3>Le mode de recherche classique</h3>
+<p>Nous l'appelons ainsi, car c'est le plus naturel. Il suffit d'indiquer sa station de départ et sa station d'arrivée dans les listes nommées respectivement "station de départ" et "station d'arrivée", puis de valider sur le bouton "Lancer la recherche". Dans ces deux listes, les noms des stations de métro et de RER sont classés par ordre alphabétique. C'est le mode par défaut. <br />
+</p>
+<p>Le mode de recherche classique propose désormais plusieurs
+trajets possibles pour se rendre d'une station à une autre. Jusqu'à présent,
+vous ne pouviez obtenir que les trajets à un seul changement. Ce qui ne
+permettait pas, par exemple, de trouver un trajet pour aller de la station
+Avenue Emile Zola à la station Pyrénées.</p>
+
+<p>Maintenant, quelque soit le point de départ et le point
+d'arrivée que vous choisissez, même les trajets nécessitant deux changements
+vous sont suggérés. Si finalement, aucune description de correspondance n'est
+enregistrée dans le site, ce qui devient de plus en plus rare, cela vous est
+indiqué.</p>
+<p>Les résultats sont affichés de la manière suivante :
+
+<ol>
+<li>En premier lieu les trajets à un seul changement, s'il en
+existe, puis les éventuels trajets à deux changements.</li>
+
+<li>S'il n'y a que des trajets à deux changements, ceux qui
+passent par le moins de stations sont affichés en premier. J'ai arbitrairement
+choisi de n'afficher que les 8 premiers résultats. Ce qui laisse un large
+éventail de possibilités.</li>
+</ol>
+</p>
+<p>Prenons quelques exemples.</p>
+
+
+
+<h4>Exemple 1</h4>
+
+<p>Supposons que nous voulions aller de la station Argentine
+(ligne 1) à la station Gallieni – Parc de Bagnolet (ligne 3). Auparavant, ce
+type de recherche vous affichait : Il n'y a pas de description de
+correspondance enregistrée pour ce trajet. En effet, il n'existe pas de station
+par laquelle passe à la fois la ligne 1 et le ligne 3. Il faut donc
+obligatoirement effectuer deux changements.<br />
+Désormais, lorsque vous lancez cette recherche, les
+résultats suivants vous sont proposés :
+<ol>
+
+<li>par Concorde,
+puis République (18 stations)</li>
+
+<li>par Hôtel de Ville, puis République (19 stations)</li>
+
+<li>par Châtelet, puis République (19 stations)</li>
+
+<li>par Franklin D. Roosevelt, puis République (19 stations)</li>
+
+<li>par Hôtel de Ville, puis Arts et Métiers (20 stations)</li>
+
+<li>par Châtelet, puis Arts et Métiers (20 stations)</li>
+
+<li>par Concorde, puis Opéra (20 stations)</li>
+
+<li>par Châtelet, puis Réaumur - Sébastopol (21 stations)</li>
+</ol>
+
+<p>Si vous utilisez Jaws ou NVDA, il vous suffit d'afficher la
+liste des titres par INSERTION+F6 pour avoir l'ensemble de ces suggestions et
+vous positionner dessus.<br />
+Sous chacun de ces titre, on vous décrit le parcours à
+effectuer. Par exemple, si l'on regarde la première proposition :</p>
+
+<p>par Concorde, puis République (18 stations) et que l'on
+descend à l'aide des flèches, on peut lire :<br />
+A la station Argentine, prendre la direction Château de
+Vincennes (ligne 1), jusqu'à la station Concorde (5 stations)<br />
+
+A Concorde, prendre la direction Créteil (ligne 8), jusqu'à
+la station République (7 stations)<br />
+Changer à Concorde<br />
+Fichier mp3</p>
+
+<p>A République, prendre la direction Galiéni (ligne 3),
+jusqu'à Gallieni Parc de Bagnolet (6 stations.<br />
+
+Changer à République.</p>
+<p>Pour chaque station où vous devez changer, un lien vous
+permet d'afficher la description de la correspondance à effectuer.  Par exemple,
+dans ce cas, nous avons un lien &quot;changer à Concorde&quot; et un lien
+&quot;Changer à République&quot;. De plus, si la description au format mp3 est
+présente sur le site, un lien &quot;fichier mp3&quot; vous permet d'écouter ou
+de télécharger la description lue par une voix de synthèse.</p>
+<p>En validant par exemple sur le lien &quot;changer à
+Concorde&quot;, on retrouve la même page qu'auparavant sur laquelle on peut
+afficher la description du quai, et éventuellement la description détaillée.
+Sous le titre &quot;options&quot; on trouve la possibilité d'écouter la
+description au format mp3, ou d'afficher l'autre partie du trajet, en
+l'occurrence, le changement à République. Si l'on avait précédemment validé sur
+&quot;changer à République&quot; au lieu de concorde, nous aurions eu la
+description de la correspondance à la station République, et la section
+&quot;Options&quot; vous aurait proposé de voir comment &quot;changer à
+concorde&quot;.</p>
+
+<p>En revanche, il n'est pas possible de faire afficher le
+trajet du retour. Pour ce faire, il vous faut effectuer une nouvelle recherche
+en inversant la station de départ et celle d'arrivée.</p>
+
+<h4>Exemple 2</h4>
+
+<p>Supposons à présent que nous voulions nous rendre de Commerce
+à Gaîté. Ici, de multiples possibilités s'offrent à nous. Encore une fois,
+seules les 8 premières suggestions sont affichées. Voici les trajets proposés :
+<ol>
+<li>par Invalides (9 stations)<br />
+A la station Commerce, prendre la direction Créteil (ligne
+8), jusqu'à la station Invalides (4 stations)<br />
+
+A la station Invalides, prendre la direction Chatillon
+jusqu'à la station Gaîté (5 stations)<br />
+
+Changer à Invalides</li>
+<li>par La Motte-Picquet - Grenelle, puis Duroc (5 stations)<br />
+A la station Commerce, prendre la direction Créteil (ligne
+8), jusqu'à la station La Motte-Picquet - Grenelle (1 stations)<br />
+A La Motte-Picquet - Grenelle, prendre la direction Gare
+d'Austerlitz (ligne 10), jusqu'à la station Duroc (2 stations)<br />
+
+Changer à La Motte-Picquet - Grenelle<br />
+
+A Duroc, prendre la direction Chatillon (ligne 13), jusqu'à
+Gaîté (2 stations<br />
+
+Changer à Duroc</li>
+
+<li>par La Motte-Picquet - Grenelle, puis Montparnasse -
+Bienvenüe (6 stations)<br />
+A la station Commerce, prendre la direction Créteil (ligne
+8), jusqu'à la station La Motte-Picquet - Grenelle (1 stations)<br />
+A La Motte-Picquet - Grenelle, prendre la direction Nation
+(6) (ligne 6), jusqu'à la station Montparnasse - Bienvenüe (4 stations)<br />
+Changer à La Motte-Picquet - Grenelle<br />
+
+A Montparnasse - Bienvenüe, prendre la direction Chatillon
+(ligne 13), jusqu'à Gaîté (1 stations<br />
+
+Changer à Montparnasse - Bienvenüe</li>
+<li>par Concorde, puis Champs-Élysées - Clemenceau - Grand
+Palais (12 stations)<br />
+
+A la station Commerce, prendre la direction Créteil (ligne
+8), jusqu'à la station Concorde (5 stations)<br />
+
+A Concorde, prendre la direction La Défense Grande Arche
+(ligne 1), jusqu'à la station Champs-Élysées - Clemenceau - Grand Palais (1
+stations)<br />
+Changer à Concorde<br />
+
+fichier mp3<br />
+
+A Champs-Élysées - Clemenceau - Grand Palais, prendre la
+direction Chatillon (ligne 13), jusqu'à Gaîté (6 stations<br />
+
+Changer à Champs-Élysées - Clemenceau - Grand Palais<br />
+fichier mp3</li>
+<li>par Concorde, puis Montparnasse - Bienvenüe (14 stations)
+
+<br />A la station Commerce, prendre la direction Créteil (ligne
+8), jusqu'à la station Concorde (5 stations)<br />
+
+A Concorde, prendre la direction Mairie d'Issy (ligne 12),
+jusqu'à la station Montparnasse - Bienvenüe (8 stations)<br />
+
+Changer à Concorde<br />
+
+fichier mp3<br />
+
+A Montparnasse - Bienvenüe, prendre la direction Chatillon
+(ligne 13), jusqu'à Gaîté (1 stations<br />
+
+Changer à Montparnasse - Bienvenüe</li>
+<li>par Madeleine, puis Saint-Lazare - Haussemann (15 stations)
+
+<br />A la station Commerce, prendre la direction Créteil (ligne
+8), jusqu'à la station Madeleine (6 stations)<br />
+
+A Madeleine, prendre la direction Porte de la Chapelle
+(ligne 12), jusqu'à la station Saint-Lazare - Haussemann (1 stations)<br />
+
+Changer à Madeleine<br />
+
+A Saint-Lazare - Haussemann, prendre la direction Chatillon
+(ligne 13), jusqu'à Gaîté (8 stations<br />
+
+Changer à Saint-Lazare - Haussemann</li>
+<li>par Madeleine, puis Saint-Lazare - Haussemann (15 stations)
+
+<br />A la station Commerce, prendre la direction Créteil (ligne
+8), jusqu'à la station Madeleine (6 stations)<br />
+
+A Madeleine, prendre la direction Saint-Lazare (ligne 14),
+jusqu'à la station Saint-Lazare - Haussemann (1 stations)<br />
+
+Changer à Madeleine<br />
+
+A Saint-Lazare - Haussemann, prendre la direction Chatillon
+(ligne 13), jusqu'à Gaîté (8 stations<br />
+
+Changer à Saint-Lazare - Haussemann</li>
+<li>par Concorde, puis Saint-Lazare - Haussemann (15 stations)
+
+<br />A la station Commerce, prendre la direction Créteil (ligne
+8), jusqu'à la station Concorde (5 stations)<br />
+
+A Concorde, prendre la direction Porte de la Chapelle (ligne
+12), jusqu'à la station Saint-Lazare - Haussemann (2 stations)<br />
+
+Changer à Concorde<br />
+
+fichier mp3<br />
+
+A Saint-Lazare - Haussemann, prendre la direction Chatillon
+(ligne 13), jusqu'à Gaîté (8 stations<br />
+
+Changer à Saint-Lazare - Haussemann
+</li>
+</ol>
+
+<p>Cette fois, vous constatez que
+les trajets à un changement sont affichés en premier, puis viennent les trajets
+à deux changements. On remarque également qu'il peut parfois être plus
+intéressant d'effectuer deux changements avec moins de station plutôt que de ne
+faire qu'un changement avec plus de station. Ici, le fait de changer à
+Invalides nous donne 9 stations, tandis que le fait de changer à La
+Motte-Piquet, puis à Duroc en donne 5. Ou encore par La Motte-Piquet, puis
+Montparnasse, cela ne fait que 6 stations. </p>
+
+<p>Libre à vous de choisir
+ensuite le trajet qui vous convient le mieux selon que vous connaissez bien une
+correspondance ou pas ou selon le temps que ça prend. On sait que par exemple
+que les correspondances à Chatelet ou à la Gare du Nord peuvent être longues et
+que le temps que l'on gagne en nombre de stations, on peut le perdre en
+dizaines de mètres parcourus. Il y a aussi des correspondances que l'on
+mémorise mieux que d'autres ou avec lesquelles on se sent plus à l'aise.</p>
+
+<p>Ici, si l'on valide sur le
+lien &quot;changer à Invalides&quot;, on obtient exactement la page telle
+qu'elle se présentait avant. Y compris avec le lien pour visualiser le trajet
+inverse.</p>
+
+<h4>Exemple 3</h4>
+
+<p>Voyons à présent
+l'utilisation de la case à cocher &quot; Afficher les changements par RER dans
+Paris&quot;.</p>
+
+<p>Supposons que nous allions
+de Argentine à Pyrénées. Lançons tout d'abord cette recherche sans cocher la
+case, c'est-à-dire, en la laissant telle quelle. Voici le résultat obtenu :</p>
+<ol>
+<li>par Hôtel de Ville (16
+stations)
+
+<br />A Argentine, prendre la
+direction Château de Vincennes (ligne 1), jusqu'à Hôtel de Ville (10 stations)<br />
+
+A Hôtel de Ville, prendre la
+direction Mairie des Lilas jusqu'à Pyrénées (6 stations)<br />
+
+Changer à Hôtel de Ville
+</li>
+<li>par Châtelet (16 stations)
+
+<br />A Argentine, prendre la
+direction Château de Vincennes (ligne 1), jusqu'à Châtelet (9 stations)<br />
+
+A Châtelet, prendre la
+direction Mairie des Lilas jusqu'à Pyrénées (7 stations)<br />
+
+Changer à Châtelet</li>
+
+<li>par Concorde, puis
+République (15 stations)
+
+<br />A Argentine, prendre la
+direction Château de Vincennes (ligne 1), jusqu'à Concorde (5 stations)<br />
+
+A Concorde, prendre la
+direction Créteil (ligne 8), jusqu'à République (7 stations)<br />
+
+Changer à Concorde<br />
+
+fichier mp3<br />
+
+A République, prendre la
+direction Mairie des Lilas (ligne 11), jusqu'à Pyrénées (3 stations<br />
+
+Changer à République</li>
+<li>par Palais Royal - Musée du
+Louvre, puis Châtelet (16 stations)
+
+<br />A Argentine, prendre la
+direction Château de Vincennes (ligne 1), jusqu'à Palais Royal - Musée du
+Louvre (7 stations)<br />
+
+A Palais Royal - Musée du
+Louvre, prendre la direction Ivry - Villejuif (ligne 7), jusqu'à Châtelet (2
+stations)<br />
+
+Changer à Palais Royal -
+Musée du Louvre<br />
+
+A Châtelet, prendre la
+direction Mairie des Lilas (ligne 11), jusqu'à Pyrénées (7 stations<br />
+
+Changer à Châtelet
+</li>
+<li>par Franklin D. Roosevelt,
+puis République (16 stations)
+
+<br />A Argentine, prendre la
+direction Château de Vincennes (ligne 1), jusqu'à Franklin D. Roosevelt (3
+stations)<br />
+
+A Franklin D. Roosevelt,
+prendre la direction Mairie de Montreuil (ligne 9), jusqu'à République (10
+stations)<br />
+
+Changer à Franklin D.
+Roosevelt<br />
+
+A République, prendre la direction
+Mairie des Lilas (ligne 11), jusqu'à Pyrénées (3 stations<br />
+
+Changer à République</li>
+<li>par Charles de Gaulle -
+Étoile, puis Belleville (17 stations)
+
+<br />A Argentine, prendre la
+direction Château de Vincennes (ligne 1), jusqu'à Charles de Gaulle - Étoile (1
+stations)<br />
+
+A Charles de Gaulle -
+Étoile, prendre la direction Nation (2) (ligne 2), jusqu'à Belleville (15
+stations)<br />
+
+Changer à Charles de Gaulle
+- Étoile<br />
+
+A Belleville, prendre la
+direction Mairie des Lilas (ligne 11), jusqu'à Pyrénées (1 stations<br />
+
+Changer à Belleville<br />
+
+fichier mp3
+</li>
+<li>par Bastille, puis
+République (19 stations)
+
+<br />A Argentine, prendre la
+direction Château de Vincennes (ligne 1), jusqu'à Bastille (12 stations)<br />
+
+A Bastille, prendre la
+direction Balard (ligne 8), jusqu'à République (4 stations)<br />
+
+Changer à Bastille<br />
+
+fichier mp3<br />
+
+A République, prendre la
+direction Mairie des Lilas (ligne 11), jusqu'à Pyrénées (3 stations<br />
+
+Changer à République
+</li>
+<li>par Bastille, puis
+République (19 stations)
+
+<br />A Argentine, prendre la
+direction Château de Vincennes (ligne 1), jusqu'à Bastille (12 stations)<br />
+
+A Bastille, prendre la
+direction Bobigny (ligne 5), jusqu'à République (4 stations)<br />
+
+Changer à Bastille<br />
+
+fichier mp3<br />
+
+A République, prendre la
+direction Mairie des Lilas (ligne 11), jusqu'à Pyrénées (3 stations<br />
+
+Changer à République
+</li>
+</ol>
+<p>Effectuons maintenant la
+même recherche en cochant la case. Voici ce ça donne :</p>
+<ol>
+
+<li>par Hôtel de Ville (16
+stations)
+
+<br />A Argentine, prendre la
+direction Château de Vincennes (ligne 1), jusqu'à Hôtel de Ville (10 stations)<br />
+
+A Hôtel de Ville, prendre la
+direction Mairie des Lilas jusqu'à Pyrénées (6 stations)<br />
+
+Changer à Hôtel de Ville
+</li>
+<li>par Châtelet (16 stations)
+
+<br />A Argentine, prendre la
+direction Château de Vincennes (ligne 1), jusqu'à Châtelet (9 stations)<br />
+
+A Châtelet, prendre la
+direction Mairie des Lilas jusqu'à Pyrénées (7 stations)<br />
+
+Changer à Châtelet
+</li>
+<li>par Charles de Gaulle -
+Étoile, puis Châtelet (10 stations)<br />
+
+A Argentine, prendre la
+direction Château de Vincennes (ligne 1), jusqu'à Charles de Gaulle - Étoile (1
+stations)<br />
+
+A Charles de Gaulle -
+Étoile, prendre la direction Vincennes (ligne RER A), jusqu'à Châtelet (2
+stations)<br />
+
+Changer à Charles de Gaulle
+- Étoile<br />
+
+A Châtelet, prendre la
+direction Mairie des Lilas (ligne 11), jusqu'à Pyrénées (7 stations<br />
+
+Changer à Châtelet
+</li>
+<li>par La Défense Grande Arche
+, puis Châtelet (15 stations)
+
+<br />A Argentine, prendre la
+direction La Défense Grande Arche (ligne 1), jusqu'à La Défense Grande Arche (5
+stations)<br />
+
+A La Défense Grande Arche ,
+prendre la direction Vincennes (ligne RER A), jusqu'à Châtelet (3 stations)<br />
+
+Changer à La Défense Grande
+Arche <br />
+
+A Châtelet, prendre la
+direction Mairie des Lilas (ligne 11), jusqu'à Pyrénées (7 stations<br />
+
+Changer à Châtelet
+</li>
+<li>par Concorde, puis
+République (15 stations)
+
+<br />A Argentine, prendre la
+direction Château de Vincennes (ligne 1), jusqu'à Concorde (5 stations)<br />
+
+A Concorde, prendre la
+direction Créteil (ligne 8), jusqu'à République (7 stations)<br />
+
+Changer à Concorde<br />
+
+fichier mp3<br />
+
+A République, prendre la
+direction Mairie des Lilas (ligne 11), jusqu'à Pyrénées (3 stations<br />
+
+Changer à République
+</li>
+<li>par Palais Royal - Musée du
+Louvre, puis Châtelet (16 stations)
+
+<br />A Argentine, prendre la
+direction Château de Vincennes (ligne 1), jusqu'à Palais Royal - Musée du
+Louvre (7 stations)<br />
+
+A Palais Royal - Musée du
+Louvre, prendre la direction Ivry - Villejuif (ligne 7), jusqu'à Châtelet (2
+stations)<br />
+
+Changer à Palais Royal -
+Musée du Louvre<br />
+
+A Châtelet, prendre la
+direction Mairie des Lilas (ligne 11), jusqu'à Pyrénées (7 stations<br />
+
+Changer à Châtelet
+</li>
+<li>par Franklin D. Roosevelt,
+puis République (16 stations)
+
+<br />A Argentine, prendre la
+direction Château de Vincennes (ligne 1), jusqu'à Franklin D. Roosevelt (3
+stations)<br />
+
+A Franklin D. Roosevelt,
+prendre la direction Mairie de Montreuil (ligne 9), jusqu'à République (10
+stations)<br />
+
+Changer à Franklin D.
+Roosevelt<br />
+
+A République, prendre la
+direction Mairie des Lilas (ligne 11), jusqu'à Pyrénées (3 stations<br />
+
+Changer à République
+</li>
+<li>par Charles de Gaulle -
+Étoile, puis Belleville (17 stations)
+
+<br />A Argentine, prendre la
+direction Château de Vincennes (ligne 1), jusqu'à Charles de Gaulle - Étoile (1
+stations)<br />
+
+A Charles de Gaulle -
+Étoile, prendre la direction Nation (2) (ligne 2), jusqu'à Belleville (15
+stations)<br />
+
+Changer à Charles de Gaulle
+- Étoile<br />
+
+A Belleville, prendre la
+direction Mairie des Lilas (ligne 11), jusqu'à Pyrénées (1 stations<br />
+
+Changer à Belleville<br />
+
+fichier mp3
+</li>
+</ol>
+<p>On constate que le troisième
+et le quatrième trajet nous proposent de prendre le RER A.</p>
+
+<p>Là encore, à vous de voir ce
+qui vous convient le mieux.</p>
+
+<h3>Le mode de recherche étendue</h3>
+<p>Ce  mode vous permet d'effectuer différents types de recherche à l'aide de trois listes déroulantes.</p>
+<ol>
+  <li>La liste "En provenance de" affiche toutes les directions disponibles par ordre alphabétique. Choisissez, dans cette liste, d'où vous venez. Une options "Toutes les provenances" est également disponible.</li>
+  <li>La liste "En direction de" affiche toutes les directions disponibles par ordre alphabétique. Choisissez, dans cette liste, vers où vous souhaitez aller. Une options "Toutes les directions" est également disponible.</li>
+  <li>La liste "Par la station" affiche toutes les stations par ordre alphabétique et par lesquelles il est possible d'effectuer un changement. Choisissez, dans cette liste, la station par laquelle vous souhaitez effectuer la correspondance. Une option "Toutes les stations" est également disponible.</li>
+</ol>
+
+<p>Si vous connaissez précisément d'où vous venez, vers où vous allez et par quelle station, sélectionnez successivement ces trois critères dans les listes correspondantes et validez sur le bouton "Lancer la recherche".</p>
+<p>Cependant, la première option "Toutes...", disponible dans chacune des listes, est comme un jocker qui vous permet d'élargir votre recherche. Par exemple, si vous savez d'où vous venez et où vous allez, mais ne savez pas par quelle station, sélectionnez l'option "Toutes les stations" dans la liste "Par la station". Ceci affichera la liste de toutes les stations par lesquelles il est possible d'effectuer la correspondance souhaitée. Si aucune correspondance n'est possible entre la provenance et la destination indiquées, un message vous en avertira.</p>
+<p>Un autre exemple d'utilisation de ce mode de recherche est celui qui consiste à afficher toutes les correspondances possibles par une station donnée. Pour cela, sélectionnez les options "Toutes" dans les listes "En provenance de" et "En direction de", et sélectionnez une station dans la liste "Par la station", puis validez sur le bouton "Lancer la recherche".</p>
+<p>Enfin, pour afficher toutes les correspondances enregistrées sur le site, il suffit de sélectionner l'option "Toutes" dans les trois listes, puis de valider sur le bouton "Lancer la recherche".</p>
+<h3>A propos des R.E.R</h3>
+<p>Dans le mode de recherche étendue, la recherche des correspondances avec le R.E.R se fait à partir des seuls "parcours communs". En effet, nous n'avons pas listé ici l'ensemble des directions et embranchements possibles. Ainsi, les terminus indiqués sont ceux des parcours communs. Voici, pour chaque ligne, les terminus correspondants :</p>
+<ol>
+<li>R.E.R A : Nanterre Préfecture - Vincennes</li>
+<li>R.E.R B : Aulnay-sous-Bois - Bourg-la-Reine</li>
+<li>R.E.R C : Champ de Mars - Choisy-le-Roy</li>
+<li>R.E.R D : Orry-la-Ville - Villeneuve-Saint-Georges</li>
+<li>R.E.R E : Haussemann-Saint-Lazare - Noisy-le-Sec</li>
+</ol>
+
+<h3>L'affichage des résultats</h3>
+<p>L'affichage des résultats est adapté au mode de recherche choisi.</p>
+<p>Si vous utilisez le mode "Recherche étendu", un récapitulatif de vos critères de recherche est d'abord présenté, ainsi que le nombre total de résultats. Ensuite, les différentes correspondances trouvées sont regroupées par stations. Il suffit de cliquer sur le lien de la correspondance qui vous intéresse pour en obtenir la description. <br />
+<strong>Note</strong> : pour chaque station, le premier lien proposé est "Revenir vers nom de la provenance". Ceci permet de savoir comment faire demi-tour lorsqu'on s'aperçoit, par exemple qu'on s'est trompé de sens ou qu'on a oublié quelque chose chez soi.</p>
+
+<p>Une fois que l'on a validé ou cliqué sur la correspondance, la nouvelle page affiche deux grandes rubriques :</p>
+   <ol>
+    <li>La rubrique "Description du quai" donne, le cas échéant, des indications sur la configuration du quai sur lequel on arrive. Il est recommandé de lire systématiquement cette rubrique avant de lire la description du changement proprement dite. En effet, la description du changement commence toujours au départ du quai.</li>
+   <li>La rubrique "Description courte" : décrit de manière succincte le trajet. Elle est conçue comme un aide-mémoire pour ceux qui connaissent déjà le trajet mais souhaite se raffraîchir la mémoire ou ceux qui ne veulent pas sembarrasser de détails et sont pressés comme de vrais parisiens. Néanmoins, elle peut être lue de manière indépendante.</li>
+    <li>La rubrique "Description détaillée" qui, comme son nom l'indique contient le maximum de détails. D'aucuns diront qu'il y en a trop mais cela permet de découvrir sans difficultés un itinéraire, en toute autonomie et en toute sécurité, et de se faire une représentation la plus précise possible des lieux.</li> 
+  </ol>
+</div>
+<div class="contenu">
+<h2>Utiliser la version mobile</h2>
+<p>Pour accéder à la version mobile, valider sur le lien "Version mobile" en haut de la colonne de gauche. Etant donné qu'il y a plus de 500 stations et que l'utilisation des listes déroulantes n'est pas aisée avec un terminal mobile, j'ai opté pour un déroulement en 3 grandes étapes :</p>
+<ol>
+<li>Choix de la station de départ</li>
+<li>Choix de la station d'arrivée</li>
+<li>Confirmation de votre parcours.</li>
+</ol>
+
+<p>Un premier écran vous invite à indiquer votre station de départ. Vous avez deux possibilités :<br />
+
+Soit en inscrivant dans la zone d'édition les trois ou quatre premières lettres qui composent le nom de la station. Dans ce cas, laissez cochée l'option "Commence par".<br />
+Soit d'y inscrire une partie de ce nom. Dans ce cas, cochez la case "Contient".<br />
+Notez qu'il n'est pas nécessaire d'utiliser les majuscules ou les lettres accentuées. La recherche ne s'effectuera que si vous avez saisi au moins un caractère.</p>
+
+<p>Voici quelques exemples de ce que vous pouvez faire :</p>
+<ol>
+
+<li>Pour rechercher une station commençant par les lettres b, a, s, inscrivez ces trois lettres dans la zone d'édition, puis cliquez sur le bouton "Valider".</li>
+<li>
+Pour rechercher la station "République" ou "Sèvres – Babylone", inscrivez simplement rep ou sev (sans les accents). Puis cliquez sur le bouton "Valider".</li>
+<li>Pour rechercher la station "La Motte-Piquet Grenelle", saisissez les lettres l, a, suivies d'un espace, puis la lettre m, puis validez.</li>
+<li>
+Pour rechercher la station "Saint-Lazare", écrivez les lettres l, a, z, cochez la case "Contient". Puis cliquez sur le bouton "Valider". Ceci évite d'avoir à écrire systématiquement "saint".
+</li>
+</ol>
+
+<p>Si votre recherche a abouti, l'écran suivant vous affiche une liste de propositions de stations en indiquant le nombre de résultats trouvés. Cliquez sur le nom de la station qui vous convient. Sinon effectuez une nouvelle recherche.
+Vous êtes alors invité à choisir la station d'arrivée. Cela fonctionne exactement de la même façon que pour la station de départ.
+Enfin, il vous est demandé de confirmer votre choix de parcours. A tout moment, vous pouvez appuyer sur le bouton "Précédent" pour modifier l'un de vos critères de recherche. Si vous confirmez votre choix de parcours en cliquant sur "Valider", vous vous retrouvez sur l'écran habituel vous proposant une liste de parcours possibles. Procédez alors comme vous le faites avec un ordinateur de bureau.<br />
+
+Pour rechercher un autre parcours, cliquez sur le bouton "Nouvelle recherche".</p>
+</div>
+<div class="contenu">
+<h2>Lignes de métro, de RER, de tramway ou de bus</h2>
+<p>Les boutons "Ligne de métro" et "Lignes de bus" vous permettent respectivement d'afficher la liste des stations pour une ligne de métro ou de bus donnée.</p>
+<h3>Lignes de métro, RER et tramway</h3>
+<p>En cliquant sur ce lien, toutes les lignes de métro, de R.E.R et de tramway sont présentées sous forme d'une liste déroulante. Cliquez sur la ligne qui vous intéresse. Puis cliquez sur le bouton Rechercher pour afficher la liste des stations appartenant à cette ligne, classées dans l'ordre de parcours. Lorsqu'une station comporte des correspondances, celles-ci sont affichées après le nom de la station. De plus, le nom de la station est un lien qui permet d'afficher toutes les correspondances disponibles pour cette station.</p>
+<h3>Lignes de bus</h3>
+<p>En cliquant sur ce lien, toutes les lignes de bus sont présentées sous forme d'une liste déroulante. Cliquez sur celle qui vous intéresse. Puis cliquez sur le bouton Rechercher pour afficher la liste des arrêts appartenant à cette ligne, classés dans l'ordre de parcours.</p>
+<p><strong>Important !</strong></p>
+<ol>
+<li>Pour chaque numéro de ligne de bus, il y a deux éléments distincts, un pour chaque sens de parcours. En effet, les trajets aller et retour, en bus, ne sont pas toujours identiques, comme ils le sont généralement pour le métro. Par exemple, pour la ligne 20, vous aurez un lien intitulé "20, Gare Saint-Lazare, Gare de Lyon"
+et un autre intitulé "20, Gare de Lyon, Gare Saint-Lazare".</li>
+<li>Je n'ai répertorié ici que les lignes pour lesquelles j'ai pu récupérer le noms des arrêts et leurs adresses. Ma source principale étant un classeur accompagné d'un CD produit par l'APAM, courant 2009, je crois. Si vous disposez d'informations fiables sur les autres lignes  de bus parisiennes avec le nom des arrêts et leurs adresse, je suis bien sûr preneur !</li>
+</ol>
+<p>En choisissant la ligne qui vous intéresse, vous aurez la liste des arrêt dans l'ordre de parcours du bus avec, le cas échéant :</p>
+<ol>
+<li>L'adresse devant laquelle il se trouve, ou à défaut, une adresse proche</li>
+<li>la station de métro la plus proche, ou à défaut, la ou les lignes à proximité,</li>
+<li>Puis des informations complémentaires si disponibles.</li>
+</ol>
+</div>
+<div class="contenu">
+<h2>Conventions et définitions</h2>
+<p><strong>Important</strong> : les descriptions disponibles sur ce site ne le sont qu'à titre purement indicatif et n'engagent en rien leurs auteurs en cas d'imprécision ou d'oubli et des conséquences qui pourraient en découler pour les utilisateurs de ce service.</p>
+<p>Bien entendu, nous nous efforçons d'apporter le maximum de précision possible selon deux principes fondamentaux :</p>
+<ol>
+<li>Mener l'utilisateur d'un point A à un point B de la manière la plus logique et dans le respect des indications et de la signalitique mises en place par la RATP.</li>
+<li>Signaler tout danger potentiel (escalier, garde-corps, poteaux ou montants de portes, objets à hauteur de visage etc...)</li>
+</ol>
+<p>Pour des raisons pratiques et juridiques, nous avons volontairement choisi de ne pas indiquer les distances en nombre précis de mètres ou de pas. Et bien que nous nous soyons efforcé d'être le plus précis possible, nous avons été obligé d'employer des notions relativement larges concernant l'évaluation des distances. De même il nous est techniquement impossible de mesurer avec précision les angles des couloirs et des escaliers.</p>
+<p>Lorsqu'une situation inhabituelle se présente, celle-ci est clairement signalée. En particulier si la longueur de la rame est plus courte que celle du quai et qu'il y a par conséquent un risque potentiel de tomber sur la voie, ou encore lorsqu'un escalier descendant se trouve sur le parcours. Il est donc vivement conseiller de lire intégralement les descriptions qui vous sont données.</p>
+<p>Si vous constatez des oublis ou des erreurs, nous vous invitons à nous les signaler dès que possible en utilisant 
+<a href="indexdc38.html?module=commun&amp;action=charger_contenu&amp;fich=contact">la page contact</a>.</p>
+
+<h3>Le quai</h3>
+<dl>
+<dt>Voie</dt>
+<dd>Ceci désigne les rails où circulent les rames de métro.</dd>
+<dt>Quai à une voie</dt>
+<dd>En général, l'arrêt de la rame en station est constitué de deux voies centrales et un quai de part et d'autre. Un quai à une voie est un quai dont la rame longe un mur au lieu de la voie parallèle. Ceci peut expliquer, par exemple, une différence de résonnance.</dd>
+<dt>Quai central</dt>
+<dd>Ceci désigne un quai à deux voies, une de chaque côté.</dd>
+<dt>Premier, deuxième, troisième tiers</dt>
+<dd>En partant de la tête de la rame vers la queue, on partage le quai en trois parties. Ainsi, le premier tiers désigne la partie la plus proche de la tête, le deuxième tiers la partie médium du quai et le troisième tiers, la partie la plus en queue.</dd>
+<dt>La voie est à gauche / à droite</dt>
+<dd>Cette indication est donnée lorsque l'arrivée sur le quai se fait, généralement par un escalier, parallèlement à ce quai, ni en queue, ni en tête.</dd>
+<dt>Dans le prolongement du quai</dt>
+<dd>Ce terme désigne un élément (couloir, escalier), situé au bout du quai et que l'on atteint en marchant parallèlement à la voie.</dd>
+</dl>
+<h3>Les carrefours</h3>
+<p>Un carrefour est un croisement entre au moins deux couloirs ou entre un couloir et un escalier.</p>
+<p>la position des éléments qui forment un carrefour est décrite à l'aide des heures d'une horloge et dans le sens des aiguilles d'une montre. par convention, lorsqu'on arrive à un carrefour, on considère que l'on est placé à 6 h. Si le carrefour est de forme carré ou rectangulaire, on se situe sur le côté inférieur de ce carré ou ce rectangle, au milieu. Les heures sont alors réparties comme suit :</p>
+<ol>
+<li>Côté inférieur et de droite à gauche : 5 h, 6 h, 7 h.</li>
+<li>Sur le côté gauche : 8 h, 9 h, 10 h.</li>
+<li>Sur le côté supérieur (face à soi) : 11 h, 12 h, 1 h.</li>
+<li>Sur le côté droit : 2 h, 3 h, 4 h.</li>
+</ol>
+<p>néanmoins, dans certaines situations, nous avons été contraint de désigner des éléments situés entre telle heure et telle heure, en particulier lorsque le carrefour donne accès à beaucoup de couloirs ou d'escaliers.</p>
+<p>Par ailleurs nous distinguons différentes forme de carrefours :</p>
+<dl>
+<dt>Le carrefour en croix </dt>
+<dd>Lorsqu'on arrive à un tel carrefour, on a un couloir ou un escalier à gauche (à 9 h), un couloir ou un escalier en face (à midi), un couloir ou un escalier à droite (à 3 h).</dd>
+<dt>Un carrefour en T</dt>
+<dd>Ceci fait référence à la forme d'un T majuscule, formé d'une tige centrale et d'une barre horizontale au sommet de cette tige.</dd>
+<dt>Un carrefour en Y</dt>
+<dd>Ceci fait référence à la forme d'un Y majuscule, formé d'une tige verticale et de deux branches biffurquant au sommet de cette tige.</dd>
+<dt>Un carrefour en éventail</dt>
+<dd>Ceci désigne un carrefour dont la forme ne peut être décrite par celles exposées précédemment, mais d'où partent plusieurs couloirs ou escaliers. Un tel carrefour est souvent un espace assez vaste que l'on désignera aussi parfois sous le terme de plate-forme.</dd>
+</dl>
+<h3>Autres termes relatifs à un parcours</h3>
+<dl>
+<dt>Un passage</dt>
+<dd>Percée dans un mur permettant de circuler entre deux quais ou deux couloirs adjacents.</dd>
+ <dt>Un escalier montant ou descendant</dt>
+  <dd>Cette expression est utilisée pour signaler la présence d'un escalier sur le trajet, que l'on laisse ou que l'on doit éviter.</dd>
+<dd>Un escalier montant permet de se rendre à un niveau supérieur.</dd>
+<dd>Un escalier descendant permet de se rendre à un niveau inférieur.</dd>
+  <dt>Un double escalier</dt>
+  <dd>Ce terme désigne deux escaliers successifs, séparés par un palier.</dd>
+  <dt>Un triple escalier</dt>
+  <dd>Ce terme désigne trois escaliers sucessifs, séparés par deux paliers. </dd>
+  <dt>Court escalier</dt>
+  <dd>Ce terme désigne un escalier formé de quelques marches (entre 1 et 6 environ).</dd>
+  <dt>Escalator</dt>
+<dd>Ce terme désigne les escalier mécaniques.</dd>
+<dt>Un escalator montant</dt>
+<dd>C'est un escalier mécanique qui permet de se rendre à un niveau supérieur.<br /><strong>Note</strong> : lorsque nous indiquons le sens de marche d'un escalator ou d'un tapis roulant, c'est une information prise le jour du repérage. Ce sens de marche est susceptible de modifications selon l'affluence ou d'autres critères propres à la gestion du réseau. Nous ne pouvons donc être tenus responsables de ces changements.</dd>
+<dt>Escalator descendant</dt>
+<dd>C'est un escalier mécanique qui permet de se rendre à un niveau inférieur.<br /><strong>Note</strong> : lorsque nous indiquons le sens de marche d'un escalator ou d'un tapis roulant, c'est une information prise le jour du repérage. Ce sens de marche est susceptible de modifications selon l'affluence ou d'autres critères propres à la gestion du réseau. Nous ne pouvons donc être tenus responsables de ces changements.</dd>
+<dt>Un escalator qui arrive du bas</dt>
+<dd>Ce terme désigne un escalier mécanique qui transporte les voyageurs depuis un étage inférieur à l'étage où l'on se trouve. Il n'est donc pas posible d'emprunter cet escalator.<br /><strong>Note</strong> : lorsque nous indiquons le sens de marche d'un escalator ou d'un tapis roulant, c'est une information prise le jour du repérage. Ce sens de marche est susceptible de modifications selon l'affluence ou d'autres critères propres à la gestion du réseau. Nous ne pouvons donc être tenus responsables de ces changements.</dd>
+<dt>Un escalator qui arrive du haut</dt>
+<dd>Ce terme désigne un escalier mécanique qui transporte les voyageurs depuis un étage supérieur à l'étage où l'on se trouve. Il n'est donc pas possible d'emprunter cet escalator.<br /><strong>Note</strong> : lorsque nous indiquons le sens de marche d'un escalator ou d'un tapis roulant, c'est une information prise le jour du repérage. Ce sens de marche est susceptible de modifications selon l'affluence ou d'autres critères propres à la gestion du réseau. Nous ne pouvons donc être tenus responsables de ces changements.</dd>
+<dt>Un tapis roulant vers soi</dt>
+<dd>Ceci désigne un tapis roulant qui transporte les voyageurs dans le sens opposé à votre marche. Il n'est donc pas possible d'emprunter ce tapis.<br /><strong>Note</strong> : lorsque nous indiquons le sens de marche d'un escalator ou d'un tapis roulant, c'est une information prise le jour du repérage. Ce sens de marche est susceptible de modifications selon l'affluence ou d'autres critères propres à la gestion du réseau. Nous ne pouvons donc être tenus responsables de ces changements.</dd>
+<dt>Long couloir</dt>
+<dd>Ceci indique un couloir dont nous estimons que la longueur est suffisamment importante pour être signalée.</dd>
+</dl>
+</div>
+<div class="contenu">
+<h2>Astuces d'utilisation du site</h2>
+
+<p>Pour finir, voici quelques astuces pour gagner du temps dans l'utilisation de ce site:</p>
+<ol>
+  <li>Sur toutes les pages un lien "page d'accueil" vous permet de repartir à zéro si vous êtes perdu.</li>
+  <li>Utiliser lelien "recherche étendue/Recherche classique" pour basculer d'unmode de recherche à l'autre.</li>
+  <li>Utiliser le lien "Afficher/Masquer la description du quai pour, soit avoir une représentation du quai sur lequel vous arrivez, soit gagner de la place sur l'écran. Ce réglage est conservé pour vos prochaines visites à condition que vous autorisiez les cookies.</li>
+</ol>
+<p>Pour toute remarque ou suggestion sur ce mode d'emploi et sur la navigation dans le site vous pouvez m'écrire à partir de 
+<a href="indexdc38.html?module=commun&amp;action=charger_contenu&amp;fich=contact">la page contact</a>.</p>
+</div><!-- bas de page pour la vue de l'interface mobile -->
+</div> <!-- fin main -->
+	<script type="text/javascript" src="autocomplete/jquery-1.4.2.js"></script>
+	<script type="text/javascript" src="autocomplete/jquery.ui.core.js"></script>
+	<script type="text/javascript" src="autocomplete/jquery.ui.widget.js"></script>
+	<script type="text/javascript" src="autocomplete/jquery.ui.position.js"></script>
+	<script type="text/javascript" src="autocomplete/jquery.ui.autocomplete.js"></script>
+	<script type="text/javascript">
+	$(function() {
+	$("div.etendue").hide();
+	$("#sta_dep, #sta_arr").value= '';
+		function log(message) {
+			$("<div/>").text(message).prependTo("#msg");
+			$("#log").attr("scrollTop", 0);
+		}
+		
+		$("#nom_sta_dep, #nom_sta_arr").autocomplete({
+			source: "global/recup_stations.php",
+			minLength: 2,
+			select: function(event, ui) {
+				log(ui.item ? (ui.item.value + " s�lectionn� ") : " aucune �l�ment s�lectionn� " + this.value);
+			}
+		});
+	});
+	</script>
+
+</body>
+
+<!-- Mirrored from www.metro-connexion.org/index.php?module=commun&action=charger_contenu&fich=mode-emploi by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 20 Mar 2016 13:35:06 GMT -->
+</html>

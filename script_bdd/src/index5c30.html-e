@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+
+<!-- Mirrored from www.metro-connexion.org/index.php?module=commun&action=lister_arrets&id=732 by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 20 Mar 2016 13:41:46 GMT -->
+<head><title>bus 73, Mus√©e d¬íOrsay --> La Garenne-Colombe M√©tro-Connexion version mobile</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="MÈtro-connexion l'outil indispensable qui dÈcrit pas ‡ pas le trajet des correspondances dans le mÈtro, le RER et le tramway de Paris" />
+	<meta name="keywords" content="metro-connexion, mÈtro, metro, mÈtropolitain, metropolitain, metropolitan, connexion, connexions, connection, connections, 
+correspondances, correspondance, changement, changements, transports en commun, dÈplacement, deplacement, paris, Paris, RER, 
+R.E.R, rer, bus, ligne de mÈtro, ligne de metro, ratp, ile-de-france, description correspondance, ligne 1, ligne 2, ligne 3, 
+ligne 4, ligne 5, ligne 6, ligne 7, ligne 8, ligne 9, ligne 10, ligne 11, ligne 12, ligne 13, ligne 14, ligne 3 bis, ligne 
+13 bis, RER A, rer a, rer b, RER B, rer c, RER C, rer d, RER D, rer e, RER E, meteor, mÈtÈor, Orlyval" />
+ <link rel="stylesheet" type="text/css" href="css/metro-connexion-mob.css" media="screen" /> 
+<link rel="stylesheet" type="text/css" href="css/metro-connexion-print.css" media="print" />
+<link rel="shortcut icon" type="image/x-icon" href="images/logo-metro-connexion.html" />
+	<link type="text/css" href="autocomplete/jquery.ui.all.css" rel="stylesheet" />
+</head>
+<body>
+<div id="header">
+<div id="logo">
+    <a href="index52d2.html?module=commun&amp;action=changer_terminal&amp;type=web"><img src="images/logo_metro-connexion.gif" alt="Accueil" /></a>
+</div>
+<div id="main_title">
+<p>
+<a href="index3958.html?module=mobile&amp;action=formulMobile&amp;k=init">Nouvelle recherche</a>&nbsp; 
+ <a href="index4887.html?module=mobile&amp;action=lister_metro">Lignes de M√©tro, RER, Tramway</a>&nbsp;
+<a href="index5c56.html?module=mobile&amp;action=lister_bus">Lignes de bus</a>
+ </p>
+
+</div>
+<span class="clear">&nbsp;</span>
+</div> <!-- fin header -->
+<div id="main">
+<div class="contenu">
+    
+<p class="bus-image"><img src="images/lignes/bus73.gif" alt="bus 73" width="35" height="200" /></p><ul><li>Mus√©e d¬íOrsay 
+</li><li>Assembl√©e Nationale 
+</li><li>Concorde 
+</li><li>Concorde - Cours la Reine 
+</li><li>Champs-Elys√©es - Clemenceau 
+</li><li>Rond-Point des Champs-Elys√©es 
+</li><li>La Bo√©tie - Champs-Elys√©es 
+</li><li>George V 
+</li><li>Charles de Gaulle - Etoile - Champs Elys√©es 
+</li><li>Charles de Gaulle - Etoile - Grande Arm√©e 
+</li><li>Argentine 
+</li><li>Porte Maillot - Palais des Congr√®s 
+</li><li>Montrosier 
+</li><li>March√© 
+</li><li>Les Sablons 
+</li><li>Rue de l¬íH√¥tel de Ville 
+</li><li>Les Graviers 
+</li><li>Pont de Neuilly 
+</li><li>Pont de Neuilly - Rive Gauche 
+</li><li>Alsace 
+</li><li>Gambetta 
+</li><li>La D√©fense 
+</li><li>Caron 
+</li><li>L√©onard de Vinci 
+</li><li>Rue des Etudiants 
+</li><li>Puvis de Chavannes 
+</li><li>Les Fauvelles 
+</li><li>Nordmann 
+</li><li>La Garenne-Colombes - Place de Belgique
+</li><li>
+</li></ul></div>  <!-- bas de page pour la vue de l'interface mobile -->
+</div> <!-- fin main -->
+	<script type="text/javascript" src="autocomplete/jquery-1.4.2.js"></script>
+	<script type="text/javascript" src="autocomplete/jquery.ui.core.js"></script>
+	<script type="text/javascript" src="autocomplete/jquery.ui.widget.js"></script>
+	<script type="text/javascript" src="autocomplete/jquery.ui.position.js"></script>
+	<script type="text/javascript" src="autocomplete/jquery.ui.autocomplete.js"></script>
+	<script type="text/javascript">
+	$(function() {
+	$("div.etendue").hide();
+	$("#sta_dep, #sta_arr").value= '';
+		function log(message) {
+			$("<div/>").text(message).prependTo("#msg");
+			$("#log").attr("scrollTop", 0);
+		}
+		
+		$("#nom_sta_dep, #nom_sta_arr").autocomplete({
+			source: "global/recup_stations.php",
+			minLength: 2,
+			select: function(event, ui) {
+				log(ui.item ? (ui.item.value + " sÈlectionnÈ ") : " aucune ÈlÈment sÈlectionnÈ " + this.value);
+			}
+		});
+	});
+	</script>
+
+</body>
+
+<!-- Mirrored from www.metro-connexion.org/index.php?module=commun&action=lister_arrets&id=732 by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 20 Mar 2016 13:41:46 GMT -->
+</html>
