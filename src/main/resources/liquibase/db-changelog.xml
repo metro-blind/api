@@ -9,7 +9,7 @@
 
   <changeSet id="1" author="alexarnaud">
     <createTable tableName="user">
-      <column name="id" type="int">
+      <column name="id" type="int" autoIncrement="true">
 	<constraints primaryKey="true" nullable="false"/>
       </column>
       <column name="name" type="varchar(50)">
@@ -23,7 +23,7 @@
       </column>
     </createTable>   
     <createTable tableName="role">
-      <column name="id" type="int">
+      <column name="id" type="int" autoIncrement="true">
 	<constraints primaryKey="true" nullable="false"/>
       </column>
       <column name="label" type="varchar(16)">
@@ -36,7 +36,7 @@
 			     referencedColumnNames="id"
 			     referencedTableName="role"/>
     <createTable tableName="city">
-      <column name="id" type="int">
+      <column name="id" type="int" autoIncrement="true">
 	<constraints primaryKey="true" nullable="false"/>
       </column>
       <column name="name" type="varchar(50)">
@@ -44,7 +44,7 @@
       </column>
     </createTable>
     <createTable tableName="line">
-      <column name="id" type="int">
+      <column name="id" type="int" autoIncrement="true">
 	<constraints primaryKey="true" nullable="false"/>
       </column>
       <!-- It is a string because line can be a number in France or a
@@ -54,7 +54,7 @@
       </column>
     </createTable>
     <createTable tableName="station">
-      <column name="id" type="int">
+      <column name="id" type="int" autoIncrement="true">
 	<constraints primaryKey="true" nullable="false"/>
       </column>
       <column name="name" type="varchar(100)">
@@ -62,7 +62,7 @@
       </column>
     </createTable>
     <createTable tableName="stations_lines">
-      <column name="id" type="int">
+      <column name="id" type="int" autoIncrement="true">
 	<constraints primaryKey="true" nullable="false"/>
       </column>
       <column name="station_id" type="int">
@@ -83,7 +83,7 @@
 			     referencedColumnNames="id"
 			     referencedTableName="line"/>
     <createTable tableName="itinerary">
-      <column name="id" type="int">
+      <column name="id" type="int" autoIncrement="true">
 	<constraints primaryKey="true" nullable="false"/>
       </column>
       <column name="text" type="text">
