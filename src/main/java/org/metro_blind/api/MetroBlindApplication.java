@@ -15,7 +15,7 @@ public class MetroBlindApplication extends Application<MetroBlindConfiguration> 
     }
 
     private final HibernateBundle<MetroBlindConfiguration> hibernateBundle =
-	new HibernateBundle<MetroBlindConfiguration>(Station.class) {
+	new HibernateBundle<MetroBlindConfiguration>(Station.class, Itinerary.class) {
 	    @Override
 	    public DataSourceFactory getDataSourceFactory(MetroBlindConfiguration configuration) {
 		return configuration.getDataSourceFactory();
@@ -37,5 +37,7 @@ public class MetroBlindApplication extends Application<MetroBlindConfiguration> 
 		    Environment environment) throws ClassNotFoundException {
 	final StationDAO stationDao = new StationDAO(hibernateBundle.getSessionFactory());
 	environment.jersey().register(new StationResource(stationDao));
+	final ItineraryDAO itineraryDao = new ItineraryDAO(hibernateBundle.getSessionFactory());
+	environment.jersey().register(new ItineraryResource(itineraryDao));
     }
 }

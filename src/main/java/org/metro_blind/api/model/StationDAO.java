@@ -19,4 +19,5 @@ public class StationDAO extends AbstractDAO<Station> {
     public List<Station> findAll() {
         return list(namedQuery("org.metro_blind.api.model.Station.findAll"));
     }
+
 }
