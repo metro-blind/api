@@ -37,7 +37,7 @@ public class UserResource {
     /* insert a new user */
     @POST
     public void insert(User user) {
-	this.userDao.insert(user);
+	/* this.userDao.insert(user); */
 	/*this.userDao.insert("test", "test");*/
     }
 }
